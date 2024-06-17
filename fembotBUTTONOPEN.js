@@ -17,7 +17,7 @@
 
 if(!localStorage.getItem('showPOPUP')){
     localStorage.setItem('showPOPUP', 'true');
-    location.href = location.href  
+    location.reload();
  }
 
 
